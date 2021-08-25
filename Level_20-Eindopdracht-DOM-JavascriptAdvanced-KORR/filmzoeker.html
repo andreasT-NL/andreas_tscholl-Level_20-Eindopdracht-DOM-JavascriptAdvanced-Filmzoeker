@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script-bonus.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="headWrapper">
+            <h1>Filmzoeker</h1>
+            <nav id="navigation">
+                <ul class="filterButtons">
+                      <input type="radio" id="nieuwste" name="filter" value="nieuwste">
+                      <label for="nieuwste">Nieuwste</label><br>
+                      <input type="radio" id="avengers" name="filter" value="avengers">
+                      <label for="avengers">Avengers</label><br>
+                      <input type="radio" id="X-Men" name="filter" value="x-men">
+                      <label for="X-Men">X-Men</label><br>
+                      <input type="radio" id="Princess" name="filter" value="princess">
+                      <label for="Princess">Princess</label><br>
+                      <input type="radio" id="Batman" name="filter" value="batman">
+                      <label for="Batman">Batman</label><br>
+                    <input type="text" placeholder="Search.." name="searchForm" class="searchForm">
+                    <button class="searchButton">submit</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <ul id="filmWrapper">
+        </ul>
+    </main>
+</body>
+
+</html>
